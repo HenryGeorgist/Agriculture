@@ -1,0 +1,16 @@
+C:\Users\q0hecajk\Perforce\RASWorkspace\Output\x64\Debug\TiffBinRead.dll.config
+C:\Users\q0hecajk\Perforce\RASWorkspace\Output\x64\Debug\TiffBinRead.dll
+C:\Users\q0hecajk\Perforce\RASWorkspace\Output\x64\Debug\TiffBinRead.pdb
+C:\Users\q0hecajk\Perforce\RASWorkspace\TiffBinaryReader\obj\x64\Debug\TiffBinRead.dll
+C:\Users\q0hecajk\Perforce\RASWorkspace\TiffBinaryReader\obj\x64\Debug\TiffBinRead.pdb
+C:\Users\q0hecajk\Perforce\RASWorkspace\TiffBinaryReader\obj\x64\Debug\TiffBinaryReader.csprojResolveAssemblyReference.cache
+C:\Temp\NASS\Output\x64\Debug\TiffBinRead.dll.config
+C:\Temp\NASS\Output\x64\Debug\TiffBinRead.dll
+C:\Temp\NASS\Output\x64\Debug\TiffBinRead.pdb
+C:\Temp\NASS\TiffBinaryReader\obj\x64\Debug\TiffBinRead.dll
+C:\Temp\NASS\TiffBinaryReader\obj\x64\Debug\TiffBinRead.pdb
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\TiffBinaryReader\bin\Debug\x64\TiffBinRead.dll.config
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\TiffBinaryReader\bin\Debug\x64\TiffBinRead.dll
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\TiffBinaryReader\bin\Debug\x64\TiffBinRead.pdb
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\TiffBinaryReader\obj\x64\Debug\TiffBinRead.dll
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\TiffBinaryReader\obj\x64\Debug\TiffBinRead.pdb

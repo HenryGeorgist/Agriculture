@@ -1,0 +1,4 @@
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.Interfaces\bin\Debug\Agriculture.Interfaces.dll
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.Interfaces\bin\Debug\Agriculture.Interfaces.pdb
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.Interfaces\obj\Debug\Agriculture.Interfaces.dll
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.Interfaces\obj\Debug\Agriculture.Interfaces.pdb

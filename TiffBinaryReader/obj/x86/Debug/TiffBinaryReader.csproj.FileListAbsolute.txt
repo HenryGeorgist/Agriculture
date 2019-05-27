@@ -1,0 +1,11 @@
+C:\Users\q0hecajk\Perforce\RASWorkspace\Output\x86\Debug\TiffBinRead.dll.config
+C:\Users\q0hecajk\Perforce\RASWorkspace\Output\x86\Debug\TiffBinRead.dll
+C:\Users\q0hecajk\Perforce\RASWorkspace\Output\x86\Debug\TiffBinRead.pdb
+C:\Users\q0hecajk\Perforce\RASWorkspace\TiffBinaryReader\obj\x86\Debug\TiffBinRead.dll
+C:\Users\q0hecajk\Perforce\RASWorkspace\TiffBinaryReader\obj\x86\Debug\TiffBinRead.pdb
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Output\x86\Debug\TiffBinRead.dll.config
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Output\x86\Debug\TiffBinRead.dll
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Output\x86\Debug\TiffBinRead.pdb
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\TiffBinaryReader\obj\x86\Debug\TiffBinRead.dll
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\TiffBinaryReader\obj\x86\Debug\TiffBinRead.pdb
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\TiffBinaryReader\obj\x86\Debug\TiffBinaryReader.csprojResolveAssemblyReference.cache

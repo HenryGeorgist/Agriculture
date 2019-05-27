@@ -1,0 +1,51 @@
+﻿<Application x:Class="Agriculture.View.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Agriculture.View"
+             xmlns:agview="clr-namespace:Agriculture.View.Ag"
+             xmlns:projview="clr-namespace:Agriculture.View.Project"
+             xmlns:simview="clr-namespace:Agriculture.View.Simulation"
+             xmlns:hydroview="clr-namespace:Agriculture.View.Hydraulics"
+             xmlns:viewbase="clr-namespace:ViewBase;assembly=ViewBase"
+             xmlns:viewmodelbase="clr-namespace:ViewModelBase;assembly=ViewModelBase"
+             xmlns:agviemodel="clr-namespace:Agriculture.ViewModel.Ag;assembly=Agriculture.ViewModel"
+             xmlns:hydroviemodel="clr-namespace:Agriculture.ViewModel.Hydraulics;assembly=Agriculture.ViewModel"
+             xmlns:simviemodel="clr-namespace:Agriculture.ViewModel.Simulation;assembly=Agriculture.ViewModel"
+             xmlns:projviemodel="clr-namespace:Agriculture.ViewModel.Project;assembly=Agriculture.ViewModel"
+             Startup="Application_Startup">
+    <Application.Resources>
+        <Style TargetType="Control" x:Key="defaultErrorTemplate">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self},
+                            Path=(Validation.Errors).CurrentItem.ErrorContent}" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="TextBox" BasedOn="{StaticResource defaultErrorTemplate}" />
+        <DataTemplate DataType="{x:Type viewmodelbase:MessageBox}">
+            <viewbase:MessageBox/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type agviemodel:NassImporter}">
+            <agview:NassImporter/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type projviemodel:AgricultureProject}">
+            <projview:AgricultureProject/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type agviemodel:CropsEditor}">
+            <agview:CropsEditor/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type agviemodel:CropEditor}">
+            <agview:CropEditor/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type hydroviemodel:HydraulicEventEditor}">
+            <hydroview:HydraulicEvent/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type simviemodel:SimulationEditor}">
+            <simview:SimulationEditor/>
+        </DataTemplate>
+        
+    </Application.Resources>
+</Application>

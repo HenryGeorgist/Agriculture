@@ -1,0 +1,82 @@
+﻿<UserControl x:Class="Agriculture.View.Ag.CropEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Agriculture.View"
+             xmlns:viewbase="clr-namespace:ViewBase;assembly=ViewBase"
+             xmlns:CAC="clr-namespace:Consequences_Assist.Controls;assembly=Consequences_Assist"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="700">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="boolToViz"/>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="35"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Left" Margin="5">
+            <CheckBox Content="Include Fixed Costs" VerticalAlignment="Center" IsChecked="{Binding IncludeFixedCosts}"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" Margin="5">
+            <Label Content="Start Planting: "/>
+            <DatePicker SelectedDate="{Binding StartPlant}"  Width="120"/>
+            <Label Content="Planting Window (days): "/>
+            <TextBox Text="{Binding PlantingWindow}" Width="120"/>
+            <Label Content="Fixed Costs: " Visibility="{Binding IncludeFixedCosts, Converter={StaticResource boolToViz}}"/>
+            <TextBox Visibility="{Binding IncludeFixedCosts, Converter={StaticResource boolToViz}}" Width="120"/>
+        </StackPanel>
+        <CAC:ValidationDataGrid Grid.Row="2" Margin="5" ItemsSource="{Binding ProductionFunctions}" AutoGenerateColumns="True"/>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Left" Margin="5">
+            <CheckBox Content="Substitutable Crop" VerticalAlignment="Center" IsChecked="{Binding IsSubstitutableCrop}"/>
+            <Label Content="Substitute Crop: " Visibility="{Binding IsSubstitutableCrop, Converter={StaticResource boolToViz}}"/>
+            <ComboBox ItemsSource="{Binding SubstitutableCrops}" SelectedItem="{Binding SubstituteCrop}" Visibility="{Binding IsSubstitutableCrop, Converter={StaticResource boolToViz}}" DisplayMemberPath="CropName" Width="120"/>
+        </StackPanel>
+
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Margin="5" Content="Units Per Acre"/>
+            <TextBox  Grid.Row="1" Grid.Column="0" Margin="5" Text="{Binding UnitsPerAcre}"/>
+
+            <Label Grid.Row="0" Grid.Column="1" Margin="5" Content="Price Per Unit"/>
+            <TextBox  Grid.Row="1" Grid.Column="1" Margin="5" Text="{Binding PricePerUnit}"/>
+
+            <Label Grid.Row="0" Grid.Column="2" Margin="5" Content="Harvest Cost Per Acre"/>
+            <TextBox  Grid.Row="1" Grid.Column="2" Margin="5" Text="{Binding HarvestCost}"/>
+
+            <Label Grid.Row="0" Grid.Column="3" Margin="5" Content="Late Plant % Loss"/>
+            <TextBox  Grid.Row="1" Grid.Column="3" Margin="5" Text="{Binding LatePlantLoss}"/>
+
+        </Grid>
+
+        <CAC:ValidationDataGrid Grid.Row="5" Margin="5" ItemsSource="{Binding DurationDamageFunctions}" AutoGenerateColumns="True"/>
+        
+        <StackPanel Grid.Row="6" Orientation="Horizontal" HorizontalAlignment="Left" Margin="5">
+            <viewbase:NamedActionButton ButtonNamedAction="{Binding AddDurationAction}" Margin="0,0,5,0"/>
+            <viewbase:NamedActionButton ButtonNamedAction="{Binding RemoveDurationAction}"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="6" Orientation="Horizontal" HorizontalAlignment="Right" Margin="5">
+            <viewbase:NamedActionButton ButtonNamedAction="{Binding PlotBudget}" Margin="0,0,5,0"/>
+            <viewbase:NamedActionButton ButtonNamedAction="{Binding PlotDamageFunctions}"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

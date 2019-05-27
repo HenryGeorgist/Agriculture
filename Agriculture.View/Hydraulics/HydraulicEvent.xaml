@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="Agriculture.View.Hydraulics.HydraulicEvent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Agriculture.View"
+             xmlns:ViewBase="clr-namespace:ViewBase;assembly=ViewBase"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="175"/>
+            <RowDefinition Height="35"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Grid.Row="0" Margin="5" Text="Event Name:" />
+            <TextBox Grid.Column="1" Grid.Row="0" Margin="5" Text="{Binding Name, ValidatesOnDataErrors=True}" />
+
+            <TextBlock Grid.Column="0" Grid.Row="1" Margin="5" Text="Arrival Grid:" />
+            <TextBox Grid.Column="1" Grid.Row="1" Margin="5" Text="{Binding ArrivalTimePath, ValidatesOnDataErrors=True}" />
+
+            <TextBlock Grid.Column="0" Grid.Row="2" Margin="5" Text="DurationGrid:" />
+            <TextBox Grid.Column="1" Grid.Row="2" Margin="5" Text="{Binding DurationPath, ValidatesOnDataErrors=True}" />
+
+            <TextBlock Grid.Column="0" Grid.Row="3" Margin="5" Text="Start Date:" />
+            <DatePicker Grid.Column="1" Grid.Row="3" Margin="5" SelectedDate="{Binding StartDate}" />
+
+            <CheckBox Grid.Column="0" Grid.Row="4" Margin="5" Content="Use Dryout Period" IsChecked="{Binding UseDryoutPeriod}" />
+            <TextBox Grid.Column="1" Grid.Row="4" Margin="5" Text="{Binding DryOutPeriodInHours, ValidatesOnDataErrors=True}" IsEnabled="{Binding UseDryoutPeriod}" />
+        </Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Row="4" Margin="5">
+            <ViewBase:NamedActionButton Grid.Row="4" ButtonNamedAction="{Binding OKAction}" HorizontalAlignment="Right"/>
+            <ViewBase:NamedActionButton Grid.Row="4" Margin="5,0,0,0" ButtonNamedAction="{Binding CloseAction}" HorizontalAlignment="Right"/>
+        </StackPanel>
+        
+    </Grid>
+</UserControl>

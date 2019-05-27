@@ -1,0 +1,5 @@
+C:\Users\q0hecajk\Perforce\RASWorkspace\Output\x86\Release\TiffBinRead.dll.config
+C:\Users\q0hecajk\Perforce\RASWorkspace\Output\x86\Release\TiffBinRead.dll
+C:\Users\q0hecajk\Perforce\RASWorkspace\Output\x86\Release\TiffBinRead.pdb
+C:\Users\q0hecajk\Perforce\RASWorkspace\TiffBinaryReader\obj\x86\Release\TiffBinRead.dll
+C:\Users\q0hecajk\Perforce\RASWorkspace\TiffBinaryReader\obj\x86\Release\TiffBinRead.pdb
