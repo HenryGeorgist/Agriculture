@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agriculture", "Agriculture\Agriculture.csproj", "{C2C065ED-A4A8-40E9-8356-4FB3EDB0075E}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agriculture.View", "Agriculture.View\Agriculture.View.csproj", "{FCC2D6DB-2976-4E80-9613-B2D32DEB0006}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiffBinaryReader", "TiffBinaryReader\TiffBinaryReader.csproj", "{2EC5C42D-50F0-4391-8271-03B0667280CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgricultureConsole", "AgricultureConsole\AgricultureConsole.csproj", "{46B0F865-5919-443B-991C-0A243FD71C7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -136,8 +138,29 @@ Global
 		{2EC5C42D-50F0-4391-8271-03B0667280CD}.Release|x64.Build.0 = Release|x64
 		{2EC5C42D-50F0-4391-8271-03B0667280CD}.Release|x86.ActiveCfg = Release|x86
 		{2EC5C42D-50F0-4391-8271-03B0667280CD}.Release|x86.Build.0 = Release|x86
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.anycpu|Any CPU.ActiveCfg = Release|Any CPU
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.anycpu|Any CPU.Build.0 = Release|Any CPU
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.anycpu|x64.ActiveCfg = Release|Any CPU
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.anycpu|x64.Build.0 = Release|Any CPU
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.anycpu|x86.ActiveCfg = Release|Any CPU
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.anycpu|x86.Build.0 = Release|Any CPU
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.Debug|x64.Build.0 = Debug|Any CPU
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.Debug|x86.Build.0 = Debug|Any CPU
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.Release|x64.ActiveCfg = Release|Any CPU
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.Release|x64.Build.0 = Release|Any CPU
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.Release|x86.ActiveCfg = Release|Any CPU
+		{46B0F865-5919-443B-991C-0A243FD71C7B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CC19D27-824C-4A13-8F4E-C15E472F31FA}
 	EndGlobalSection
 EndGlobal

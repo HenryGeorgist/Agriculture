@@ -4,4 +4,5 @@ C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Output\x86\D
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Output\x86\Debug\Agriculture.Interfaces.pdb
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.Interfaces\obj\x86\Debug\Agriculture.Interfaces.dll
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.Interfaces\obj\x86\Debug\Agriculture.Interfaces.pdb
-C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.Interfaces\obj\x86\Debug\Agriculture.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.Interfaces\obj\x86\Debug\Agriculture.Interfaces.csprojAssemblyReference.cache
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.Interfaces\obj\x86\Debug\Agriculture.Interfaces.csproj.CoreCompileInputs.cache

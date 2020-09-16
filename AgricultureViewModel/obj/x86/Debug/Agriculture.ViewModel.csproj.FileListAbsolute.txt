@@ -30,6 +30,8 @@ C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\AgricultureV
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\AgricultureViewModel\bin\x86\Debug\Agriculture.ViewModel.pdb
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Output\x86\Debug\Agriculture.ViewModel.dll
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Output\x86\Debug\Agriculture.ViewModel.pdb
-C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\AgricultureViewModel\obj\x86\Debug\Agriculture.ViewModel.csprojResolveAssemblyReference.cache
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\AgricultureViewModel\obj\x86\Debug\Agriculture.ViewModel.dll
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\AgricultureViewModel\obj\x86\Debug\Agriculture.ViewModel.pdb
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\AgricultureViewModel\obj\x86\Debug\Agriculture.ViewModel.csprojAssemblyReference.cache
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\AgricultureViewModel\obj\x86\Debug\Agriculture.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\AgricultureViewModel\obj\x86\Debug\Agriculture.ViewModel.csproj.CopyComplete

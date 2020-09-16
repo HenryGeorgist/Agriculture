@@ -128,7 +128,7 @@ namespace Agriculture.Crops
         protected virtual void ComputeFloodedDollarDamages(IAgriculturalFloodEvent floodEvent, ref ICropResult result)
         {
             double totalValue = TotalAnnualValue();
-            double totalValueLessHarvest = totalValue - ProductionFunction.HarvestCost;
+			double totalValueLessHarvest = totalValue - ProductionFunction.HarvestCost;
             double exposedvalue = ProductionFunction.ComputeExposedValue(floodEvent);
             double damagePercent = DamageFunction.ComputeDamagePercent(floodEvent);
             double totalCost = ProductionFunction.CumulativeCostsLessHarvest;

@@ -24,8 +24,10 @@ C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture\
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture\bin\x86\Debug\DataBase_Reader.xml
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture\bin\x86\Debug\Statistics.pdb
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture\bin\x86\Debug\Statistics.xml
-C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Output\x86\Debug\Agriculture.dll
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Output\x86\Debug\Agriculture.pdb
-C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture\obj\x86\Debug\Agriculture.csprojResolveAssemblyReference.cache
-C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture\obj\x86\Debug\Agriculture.dll
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture\obj\x86\Debug\Agriculture.pdb
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture\obj\x86\Debug\Agriculture.csprojAssemblyReference.cache
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture\obj\x86\Debug\Agriculture.csproj.CoreCompileInputs.cache
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture\obj\x86\Debug\Agriculture.csproj.CopyComplete
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Output\x86\Debug\Agriculture.exe
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture\obj\x86\Debug\Agriculture.exe

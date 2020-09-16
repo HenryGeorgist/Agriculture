@@ -50,8 +50,6 @@ C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Output\x86\Debug\Agriculture.View.exe.config
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Output\x86\Debug\Agriculture.View.exe
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Output\x86\Debug\Agriculture.View.pdb
-C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.View\obj\x86\Debug\Agriculture.View.csprojResolveAssemblyReference.cache
-C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.View\obj\x86\Debug\Agriculture.View.csproj.Agriculture.View.exe.config
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.View\obj\x86\Debug\App.g.cs
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.View\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.View\obj\x86\Debug\Agriculture.View_MarkupCompile.cache
@@ -74,3 +72,7 @@ C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.View\obj\x86\Debug\Ag\NassImporter.baml
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.View\obj\x86\Debug\Project\AgricultureProject.baml
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.View\obj\x86\Debug\Simulation\SimulationEditor.baml
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.View\obj\x86\Debug\Agriculture.View.csprojAssemblyReference.cache
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.View\obj\x86\Debug\Agriculture.View.exe.config
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.View\obj\x86\Debug\Agriculture.View.csproj.CoreCompileInputs.cache
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Agriculture.View\obj\x86\Debug\Agriculture.View.csproj.CopyComplete

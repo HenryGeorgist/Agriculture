@@ -8,4 +8,5 @@ C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Output\x86\D
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\Output\x86\Debug\TiffBinRead.pdb
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\TiffBinaryReader\obj\x86\Debug\TiffBinRead.dll
 C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\TiffBinaryReader\obj\x86\Debug\TiffBinRead.pdb
-C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\TiffBinaryReader\obj\x86\Debug\TiffBinaryReader.csprojResolveAssemblyReference.cache
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\TiffBinaryReader\obj\x86\Debug\TiffBinaryReader.csprojAssemblyReference.cache
+C:\Users\Q0HECWPL\Documents\Visual Studio 2015\Projects\Agriculture\TiffBinaryReader\obj\x86\Debug\TiffBinaryReader.csproj.CoreCompileInputs.cache

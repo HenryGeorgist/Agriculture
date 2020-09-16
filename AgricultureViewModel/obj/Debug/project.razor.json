@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\Q0HECWPL\\Documents\\Visual Studio 2015\\Projects\\Agriculture\\AgricultureViewModel\\Agriculture.ViewModel.csproj",
+  "TargetFramework": "v4.6.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
